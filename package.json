@@ -5,7 +5,11 @@
   "description": "A short description of your UI theme",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "atom",
+    "pastel",
+    "mermaid",
+    "unicorn"
   ],
   "repository": "https://github.com/vannio/mermaid-dark-ui",
   "license": "MIT",
