@@ -1,7 +1,7 @@
 {
   "name": "mermaid-dark-ui",
   "theme": "ui",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A mermaid-hair inspired, pink-heavy, soft and muted ui theme for Atom",
   "keywords": [
     "ui",
