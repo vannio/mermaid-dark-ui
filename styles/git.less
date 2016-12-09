@@ -4,10 +4,13 @@
 
 // Used to color git status
 
+.status-added,
 .status-modified,
-.file.status          { color: @text-color; }
-.file.status-added    { color: @text-color-success; }
-.status-ignored  { color: @text-color-subtle; }
+.file.status { color: @text-color; }
+.directory.status-added .header,
+.file.status-added { color: @text-color-success; }
+.status-ignored { color: @text-color-subtle; }
+.directory.status-modified .header,
 .file.status-modified { color: @text-color-warning; }
-.file.status-removed  { color: @text-color-error; }
-.file.status-renamed  { color: @text-color-info; }
+.file.status-removed { color: @text-color-error; }
+.file.status-renamed { color: @text-color-info; }
