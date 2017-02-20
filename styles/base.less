@@ -24,3 +24,21 @@ atom-pane {
     background-color: @base-background-color;
   }
 }
+
+.scrollbars-visible-always {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-corner {
+    background-color: @app-background-color;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(92, 92, 92, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 1px black inset;
+  }
+}
